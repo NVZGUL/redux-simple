@@ -1,0 +1,13 @@
+<h1>
+  {{title}}
+</h1>
+
+
+<div>
+  <span>{{counter$ | async}}</span>
+</div>
+
+<div>
+  <button (click)="actions.increment()">+</button>
+  <button (click)="actions.decrement()">-</button>
+</div>
